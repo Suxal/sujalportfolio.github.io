@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="js/script.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+     <!---header--->
+    <header class="header">
+        <a href="javascript:void(0);">
+            <i class='bx bx-menu' id="menu-icon" title="Toggle Navigation Menu"></i>
+        </a>
+        <h2 class="logo">S<span>K</span></h2>
+        <ul class="navbar" id="navbar">
+            <li><a href="#home"><span><i class="fa-solid fa-house"></span></i>Home</a></li>
+            <li><a href="#about"><span><i class="fa-solid fa-user"></i></span>About</a></li>
+            <li><a href="#experience"><span><i class="fa-solid fa-briefcase"></i></span>Experience</a></li>
+            <li><a href="#skills"><span><i class="fa-solid fa-gears"></i></span>Skills</a></li>
+            <li><a href="#project"><span><i class="fa-solid fa-laptop-code"></i></span>Projects</a></li>
+            <li><a href="#contact"><span><i class="fa-solid fa-message"></i></span>Contact</a></li>
+        </ul>
+        
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/suzal-koirala-1b70193a4/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="contact-icons">
+            <a href="https://github.com/Suxal" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <video autoplay muted loop class="back-video">
+            <source src="vid/vid4.mp4" type="video/mp4">
+        </video>
+        <div class="home-text">
+            <h4>Hello,</h4>
+            <h1>I am Sujal Koirala.<br></h1>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/my_profile.jpg" >
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h4>Hi, I am Sujal Koirala!!</h4>
+            <p>I am in 3rd year of Electronics, Information, Communication and 
+                Technology Engineering at Thapathali Campus, Institute of Engineering, Tribhuvan University.
+                I am passionate about problem solving and technologies. I love to explore new technologies and
+                implement them in my projects.
+            </p><br>
+            <p>I am also interested in web development and am working on projects using html,css, and javascript.
+                I have also worked on projects using python and c++.
+            </p>
+            <div class="about-grid">
+                <p>Some of my skills are:</p>
+                <div class="about-info">
+                    <h5>1. Problem solving.</h5>
+                </div>
+
+                <div class="about-info">
+                    <h5>2. Programming.</h5>    
+                </div>
+
+                <div class="about-info">
+                    <h5>3. Team work.</h5>
+                </div>
+            </div>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-content">
+            <div class="box">
+                <img src="img/skills1.png">
+                <img src="img/skills2.png">
+                <h4><span>Programming Enthusiast</span></h4>
+                <br>
+                <p>1.Created multiple projects with different programming language.</p>
+                <p>2.Involved in computer graphics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="main-text">
+            <h2>My Skills</h2>
+        </div>
+    
+        <div class="box">
+            <h4><span>Programming Languages</span></h4>
+            <br>
+            <div class="skills-icon">
+                <i class="devicon-c-plain colored"></i>
+                <i class="devicon-cplusplus-plain colored"></i>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <h4><span>Tools and Technologies</span></h4>
+            <br>
+            <div class="skills-icon">
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-github-original "></i>
+                <i class="devicon-vscode-plain colored"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="main-text">
+            <h2>My Projects</h2>
+            <h4>Some of my distinguished works are</h4>
+        </div>
+
+        <div class="projects-content">
+            <a href="https://github.com/Suxal/calculator" target="_blank" class="project-card">
+                <img src="img/calc.jpg" alt="Calculator Project">
+                <h4>Calculator</h4>
+            </a>
+
+            <a href="https://github.com/Suxal/Sudoku-with-QT" target="_blank" class="project-card">
+                <img src="img/sudoku.jpg" alt="Sudoku Game">
+                <h4>Sudoku Game</h4>
+            </a>
+        </div>
+    </section>
+
+
+  <!-- -contact- -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact Me</h2>
+            <form action="action.php" method="POST">
+                <div class="contact-box">
+                    <div class="input-group">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                        <br>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <br>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+                        <br>
+                    </div>
+                    <div class="input-group">
+                        <i class="fa fa-phone icon"></i>
+                        <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+                        <br>
+                    </div>
+                    <div class = "input-group">
+                        <i class="fa fa-comment icon"></i>
+                        <textarea id="message" name="message" placeholder="Write your message.."></textarea>
+                        <br>
+                    </div>
+                    <input class="btn" type="submit" value="Submit">
+                </div>   
+            </div>
+        </form>
+    </section>
+
+
+</body>
+</html>
